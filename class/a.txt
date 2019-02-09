@@ -1,0 +1,12 @@
+Array
+(
+    [id_account] => 2
+    [a_dollar] => 30000
+    [cost] => 10
+    [sender_name] => walid
+    [sender_phone] => 34234
+    [reciever_name] => aso
+    [reciever_phone] => 
+    [reciever_address] => 
+    [detail] => walid nardi bo aso
+)

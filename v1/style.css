@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/DroidKufi-Regular.eot);
+  src: url(fonts/DroidKufi-Regular2.eot) format('embedded-opentype'),
+       url(fonts/DroidKufi-Regular.woff2) format('woff2'),
+       url(fonts/DroidKufi-Regular.woff) format('woff'),
+       url(fonts/DroidKufi-Regular.ttf) format('truetype');
+}
+body{
+	background: url('images/500px/seamlesstexture21_500.jpg');
+	margin: 0;
+}
+
+#wrapper{
+	width: 1330px;/**/
+	border: 2px solid white;
+	/*border-radius: 10px;*/
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.8);
+}
+.navigation{
+	/*border: 1px solid blue;*/
+	padding: 3px 20px 3px 20px;
+	box-shadow: 0 0 25px #888888;
+	background-color: #EEEEEE;
+	direction: rtl;
+	height: 48px;
+}
+.navigation button{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 98px;
+	font-family: /*'Droid Arabic Kufi',*/tahoma;
+	font-size: 12px;
+}
+.navigation #logo_image{
+	float: left;
+	/*height: 25px;*/
+	margin-top: 5px;
+}
+/*
+.navigation #home, .navigation #print{
+	height: 25px;
+	vertical-align: middle;
+	margin-bottom: 4px;
+	margin-left: 3px;
+	margin-right: 3px;
+}*/
+.center{
+	text-align: center;
+	margin-top: 8px;
+}
+#jtable_div{
+	margin: 10px auto;
+}
+#footer , #footer a{
+	text-align: center;
+	font-family: Courier new;
+	color: #AAA;
+	font-size: 12px;
+}
+
+.navigation a,.navigation a:visited{
+	min-width: 34px;
+	padding: 2px 5px;
+	border-radius: 3px;
+	/*max-width: 62px;*/
+	float: right;
+	font-family: tahoma;
+	font-size: 11px;
+	text-decoration: none;
+	text-align: center;
+	color: #555;
+	margin: 0 1px 0 1px;
+}
+.navigation .icons:hover{
+  background-color: rgba(255,199,145,0.5);
+  color: maroon;
+}
+.navigation a span{
+  display:block;
+  white-space:nowrap;
+  margin: 0;
+}
+.navigation a img{
+	width: 32px;
+	height: 32px;
+}
+
+
+
+
+
+
